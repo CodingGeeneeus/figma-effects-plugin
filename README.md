@@ -1,0 +1,1 @@
+# figma-effects-plugin
