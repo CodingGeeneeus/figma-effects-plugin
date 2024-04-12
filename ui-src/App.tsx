@@ -40,8 +40,6 @@ function App() {
     const blob = new Blob([arr as unknown as BlobPart], {type: "image/png"})
     const image:HTMLImageElement = await utils.blobToPNG(blob);
 
-    console.log(image)
-
     preview.width = width;
     preview.height = height;
     
